@@ -1,0 +1,19 @@
+{
+  "name": "babyg-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build --outDir=dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "launchdarkly-js-client-sdk": "^3.4.0"
+  },
+  "devDependencies": {
+    "vite": "^5.3.3"
+  }
+}
