@@ -10,14 +10,15 @@ const updateStatus = (status) => {
     document.getElementById(status).style.visibility = 'visible'
 }
 
-window.addEventListener("load", () => {
-    client = LDClient.initialize('668b8078486b2f0f472de607', { anonymous: true });
-    client.on("ready", () => {
-        const initialStatus = client.variation("baby-g-status", "waiting");
+window.addEventListener('load', () => {
+    client = LDClient.initialize('XXXXXXXXXXXXXXXXXXXXXXXX', { anonymous: true });
+                                  
+    client.on('ready', () => {
+        const initialStatus = client.variation('xxxxxxxxxxxx', 'waiting');
         updateStatus(initialStatus)
         
-        client.on("change", (setting) => {
-            const status = setting["baby-g-status"];
+        client.on('change', (setting) => {
+            const status = setting['xxxxxxxxxxxx'];
             if (status) {
                 updateStatus(status.current);
             }
