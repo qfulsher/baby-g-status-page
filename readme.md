@@ -19,3 +19,5 @@ I used Cloudflare for hosting this, so that's what I'm writing up for. This site
 6. Make sure the project builds and deploys and that the preview websites work as expected. 
 7. Under the `Custom Domains` tab for the page, setup a custom domain and point it to the domain you want to use.
 8. After setting up the custom domain and waiting for the DNS changes to take affect, your site should be ready!
+
+<a href="buymeacoffee.com/qfulsher" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
